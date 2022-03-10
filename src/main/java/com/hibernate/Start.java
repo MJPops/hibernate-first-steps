@@ -3,7 +3,6 @@ package com.hibernate;
 import com.hibernate.dao.AuthorDAO;
 import com.hibernate.entity.Author;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Start {

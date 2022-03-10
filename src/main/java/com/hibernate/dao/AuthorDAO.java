@@ -19,7 +19,7 @@ public class AuthorDAO {
         sessionFactory = HibernateUtil.getSessionFactory();
     }
 
-    public static Author getAuthorById(Long authorId){
+    public static Author getAuthorById(Long authorId) {
 
         Session session = sessionFactory.openSession();
         Author author = session.get(Author.class, authorId);
@@ -44,5 +44,14 @@ public class AuthorDAO {
         session.close();
 
         return authors;
+    }
+
+    public static void addAuthor(Author author) {
+
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        session.saveOrUpdate(author);
+        session.getTransaction().commit();
+        session.close();
     }
 }
