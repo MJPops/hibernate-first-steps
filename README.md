@@ -1,20 +1,20 @@
 # Hibernate First Steps
-**Учебный проект*
+**Study project*
 
-## Используемые библиотеки
+## Libraries used
 
 - [Hibernate Core Relocation](https://mvnrepository.com/artifact/org.hibernate/hibernate-core)
 - [PostgreSQL JDBC Driver](https://mvnrepository.com/artifact/org.postgresql/postgresql)
 - [Project Lombok](https://mvnrepository.com/artifact/org.projectlombok)
 
-## Задачи
+## Tasks
 
-- Реализовать:
-  - [x] Получение модели по id
-  - [x] Получение всех моделей
-  - [x] Добавление моделей
-  - [ ] Обновление моделей
-  - [ ] Удаление моделей
-- По моделям:
-  - [ ] Настроить связь между моделями
-  - [ ] Получать множество моделей, принадлежащих одной
+- Implement:
+   - [x] Get model by id
+   - [x] Get all models
+   - [x] Add models
+   - [ ] Update models
+   - [ ] Deleting models
+- By models:
+   - [ ] Set link between models
+   - [ ] Get multiple models belonging to the same
